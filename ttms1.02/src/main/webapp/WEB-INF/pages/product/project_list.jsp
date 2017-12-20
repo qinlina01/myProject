@@ -38,13 +38,13 @@
 				<table class="table table-bordered">
 					<thead>
 						<tr>
-						   <th>选择1</th>
-							<th>项目编码1</th>
-							<th>项目名称1</th>
-							<th>开始时间1</th>
-							<th>结束时间1</th>
-							<th>状态1</th>
-							<th>操作1</th>
+						   <th>选择</th>
+							<th>项目编码</th>
+							<th>项目名称</th>
+							<th>开始时间</th>
+							<th>结束时间</th>
+							<th>状态</th>
+							<th>操作</th>
 						</tr>
 					</thead>
 					<!-- ajax异步获得,并将数据填充到tbody中 -->

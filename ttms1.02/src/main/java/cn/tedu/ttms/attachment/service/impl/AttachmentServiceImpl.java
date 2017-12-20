@@ -116,10 +116,6 @@ public class AttachmentServiceImpl implements AttachmentService {
 	    if(rows==-1)
 	    throw new ServiceException("insert error");
 	}
-	@Override
-	public String getDou(String dou) {
-		return "你是："+dou;
-	}
 	
 	
 

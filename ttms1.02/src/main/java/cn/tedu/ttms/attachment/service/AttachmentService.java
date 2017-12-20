@@ -14,10 +14,4 @@ public interface AttachmentService {
 	public List<Attachment> findObjects();
 	public Attachment findObjectById(Integer id);
 	
-	/**
-	 * 返回一个逗
-	 * @param dou
-	 * @return
-	 */
-	public String getDou(String dou);
 }

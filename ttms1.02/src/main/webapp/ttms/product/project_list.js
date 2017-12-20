@@ -132,9 +132,8 @@ function getQueryFormData(){
     return params;
 }
 function doGetObjects(){
-	alert("大家");
 	//定义一个url(对应服务端控制器中的一个方法)
-	var url="project2/getProject2List.do"
+	var url="project/doFindObjects.do"
 	//获取当前页的页码值,假如没有值,默认值设置为1
 	var pageCurrent=$("#pageId").data("pageCurrent");
 	if(!pageCurrent){
